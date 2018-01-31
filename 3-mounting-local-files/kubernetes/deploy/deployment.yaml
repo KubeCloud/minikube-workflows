@@ -19,7 +19,7 @@ spec:
         name: flow-3
         ports:
         - containerPort: 80
-        
+
         volumeMounts:
         - mountPath: /usr/share/nginx/html/
           name: flow-3-volume
